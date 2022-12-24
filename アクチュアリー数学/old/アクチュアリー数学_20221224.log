@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  24 DEC 2022 19:19
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  25 DEC 2022 08:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**アクチュアリー数学.tex
-(./アクチュアリー数学.tex
+**アクチュアリー数学_20221224.tex
+(./アクチュアリー数学_20221224.tex
 pLaTeX2e <2021-11-15>+1 (based on LaTeX2e <2022-11-01> patch level 1)
 L3 programming layer <2022-12-17>
 (c:/texlive/2022/texmf-dist/tex/platex/jsclasses/jsarticle.cls
@@ -125,8 +125,8 @@ File: l3backend-dvips.def 2022-10-26 L3 backend support: dvips
 \g__pdf_backend_link_int=\count273
 \g__pdf_backend_link_sf_int=\count274
 )
-(./アクチュアリー数学.aux)
-\openout1 = `アクチュアリー数学.aux'.
+No file アクチュアリー数学_20221224.aux.
+\openout1 = `アクチュアリー数学_20221224.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -158,16 +158,16 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 12.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 12.
- [1
+[1
 
-] (./アクチュアリー数学.aux) ) 
+] (./アクチュアリー数学_20221224.aux) ) 
 Here is how much of TeX's memory you used:
- 1387 strings out of 476552
- 20910 string characters out of 5806845
+ 1385 strings out of 476552
+ 20963 string characters out of 5806845
  1857797 words of memory out of 5000000
  22048 multiletter control sequences out of 15000+600000
  518246 words of font info for 61 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 54i,5n,62p,363b,180s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 54i,5n,62p,372b,180s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on アクチュアリー数学.dvi (1 page, 3072 bytes).
+Output written on アクチュアリー数学_20221224.dvi (1 page, 3072 bytes).
