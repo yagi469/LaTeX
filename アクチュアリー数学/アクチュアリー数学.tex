@@ -32,7 +32,10 @@
 %線の長い分数
 
 \newcounter{toi}[section]
-\newcommand{\toi}{\refstepcounter{toi}\hangindent=2em\noindent {\bf \large 演習問題 \thechapter-\thetoi} \indent}
+\newcommand{\toi}{\refstepcounter{toi}\hangindent=2em\noindent {\bf \large 問題 \thechapter-\thetoi} \indent}
+%問題コマンド
+
+\newcommand{\etoi}{\refstepcounter{toi}\hangindent=2em\noindent {\bf \large 演習問題 \thechapter-\thetoi} \indent}
 %演習問題コマンド
 
 \newcommand{\htoi}{\refstepcounter{toi}\hangindent=2em\noindent {\bf \large 必修問題 \thechapter-\thetoi} \indent}
@@ -72,7 +75,7 @@
 }
 %コメントコマンド
 
-\newcommand{\sourse}[2]{
+\newcommand{\source}[2]{
 \begin{flushright}
 出典：{#1}年度~{#2}
 \end{flushright}
@@ -199,7 +202,9 @@ $7^{n}$ を 6 で割った余りは 1 であることを証明したい.
 \item 数学的帰納法を用いて証明せよ.
 \item 二項定理を用いて証明せよ.
 \end{enumerate}
-\sourse{2020}{豊橋技科大・前期}
+\source{2020}{豊橋技科大・前期}
+
+\ans
 
 \vfill
 
@@ -210,7 +215,7 @@ $7^{n}$ を 6 で割った余りは 1 であることを証明したい.
 \item 点 (-1,4)と点 (2, 8) が放物線上にはなく別々の領域に属するような $a,~b$の条件を求めよ。更に, その条件を満たす$(a,~b)$ の領域を $a b$ 平面に図示せよ.
 \item $a$, bが (1)で求めた条件を満たすとき, $a^{2}+b^{2}$ がとり得る値の範囲を求めよ.
 \end{enumerate}
-\sourse{2015}{愛知教育大}
+\source{2015}{愛知教育大}
 
 \vfill
 \newpage
@@ -226,7 +231,7 @@ $a,~b$ を定数とし，実数
 \item 関数$f(x)$ の極大値を答えよ.
 \item $m$ が(2)における極小値であるとき,~曲線$y=f(x)$ と直線 $y=m$によって囲まれた部分の面積を答えよ.
 \end{enumerate}
-\sourse{2020}{防衛大・理工}
+\source{2020}{防衛大・理工}
 
 \vfill
 
