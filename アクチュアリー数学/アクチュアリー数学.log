@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  24 DEC 2022 18:20
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  24 DEC 2022 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,32 +6,56 @@ entering extended mode
 (./アクチュアリー数学.tex
 pLaTeX2e <2021-11-15>+1 (based on LaTeX2e <2022-11-01> patch level 1)
 L3 programming layer <2022-12-17>
-(c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
-)
+(c:/texlive/2022/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2022/09/13 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen156
+\jsc@mmm=\dimen157
+\jsc@smallskipamount=\skip48
+LaTeX Info: Redefining \textmc on input line 500.
+LaTeX Info: Redefining \textgt on input line 502.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 564.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 758.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 758.
+\fullwidth=\dimen158
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 911.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 911.
 \c@part=\count184
 \c@section=\count185
 \c@subsection=\count186
 \c@subsubsection=\count187
 \c@paragraph=\count188
 \c@subparagraph=\count189
+\@abstractbox=\box68
 \c@figure=\count190
 \c@table=\count191
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen156
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\jsc@tocl@width=\dimen159
+\@lnumwidth=\dimen160
+\bibindent=\dimen161
+(c:/texlive/2022/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
+)
+\heisei=\count192
 )
 (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2022-10-26 L3 backend support: dvips
-\l__pdf_internal_box=\box68
-\g__pdf_backend_object_int=\count192
-\l__pdf_backend_content_box=\box69
-\l__pdf_backend_model_box=\box70
-\g__pdf_backend_annotation_int=\count193
-\g__pdf_backend_link_int=\count194
-\g__pdf_backend_link_sf_int=\count195
+\l__pdf_internal_box=\box69
+\g__pdf_backend_object_int=\count193
+\l__pdf_backend_content_box=\box70
+\l__pdf_backend_model_box=\box71
+\g__pdf_backend_annotation_int=\count194
+\g__pdf_backend_link_int=\count195
+\g__pdf_backend_link_sf_int=\count196
 )
 (./アクチュアリー数学.aux)
 \openout1 = `アクチュアリー数学.aux'.
@@ -58,12 +82,12 @@ LaTeX Font Info:    ... okay on input line 2.
 
 ] (./アクチュアリー数学.aux) ) 
 Here is how much of TeX's memory you used:
- 430 strings out of 476552
- 8459 string characters out of 5806845
+ 662 strings out of 476552
+ 11306 string characters out of 5806845
  1849797 words of memory out of 5000000
- 21117 multiletter control sequences out of 15000+600000
- 516158 words of font info for 49 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 33i,5n,38p,228b,170s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 21342 multiletter control sequences out of 15000+600000
+ 517019 words of font info for 54 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 41i,5n,48p,228b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on アクチュアリー数学.dvi (1 page, 720 bytes).
+Output written on アクチュアリー数学.dvi (1 page, 744 bytes).
