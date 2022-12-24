@@ -1,6 +1,0 @@
-\ttl@change@i {\@ne }{chapter}{0pt}{}{\thecontentslabel \hspace {5mm}}{}{\titlerule *{・}\makebox [2mm][r]{\thecontentspage }}\relax 
-\ttl@change@v {chapter}{}{}{}\relax 
-\ttl@change@i {\@ne }{section}{0pt}{}{\thecontentslabel \hspace {5mm}}{}{\titlerule *{・}\makebox [2mm][r]{\thecontentspage }}\relax 
-\ttl@change@v {section}{}{}{}\relax 
-\contentsline {chapter}{\numberline {第1講}【各講のタイトルはchapter階層で書く】}{4}{}%
-\contentsfinish 
