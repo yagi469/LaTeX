@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  24 DEC 2022 18:50
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  24 DEC 2022 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -86,16 +86,24 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 11.
  [1
 
 ] (./アクチュアリー数学.aux) ) 
 Here is how much of TeX's memory you used:
- 672 strings out of 476552
- 11411 string characters out of 5806845
- 1851797 words of memory out of 5000000
- 21349 multiletter control sequences out of 15000+600000
- 517913 words of font info for 58 fonts, out of 8000000 for 9000
+ 669 strings out of 476552
+ 11387 string characters out of 5806845
+ 1855797 words of memory out of 5000000
+ 21347 multiletter control sequences out of 15000+600000
+ 517792 words of font info for 59 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 41i,5n,48p,361b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 41i,5n,48p,363b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on アクチュアリー数学.dvi (1 page, 1628 bytes).
+Output written on アクチュアリー数学.dvi (1 page, 2440 bytes).
