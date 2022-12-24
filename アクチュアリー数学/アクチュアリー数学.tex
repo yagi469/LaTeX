@@ -1,4 +1,5 @@
 \documentclass{jsarticle}
+\usepackage{amsmath}
 \begin{document}
 \textbf{問題1.} 次の（１）～（１２）の各問について、空欄に当てはまる最も適切なものをそれぞれの選択肢の中から1つ選び、解答用紙の所定の欄にマークしなさい。なお、同じ選択肢を複数回選択してもよい。
 \rightline{各5点（計６０点）}
@@ -17,9 +18,13 @@ P(R|F) = \frac{P(F|R)\cdot P(R)}{P(F|R)\cdot P(R) + P(F|W)\cdot P(W)}
 2つの箱から1つの箱を無作為に選ぶので、
 
 \begin{equation}
+P(R) = P(W) = \frac{1}{2}
 \end{equation}
 
+$P(F|R)$は、箱Rから一度に5個同時に玉を取り出すとき、赤玉が3個、白玉が2個となる確率であるから、
+
 \begin{equation}
+P(F|R) = \frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}
 \end{equation}
 
 \begin{equation}
