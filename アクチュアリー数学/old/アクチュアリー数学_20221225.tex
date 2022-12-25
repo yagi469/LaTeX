@@ -1,10 +1,40 @@
-\documentclass{jsarticle}
+\documentclass{jsbook}
 \usepackage{amsmath}
-\begin{document}
-\textbf{問題1.} 次の（１）～（１２）の各問について、空欄に当てはまる最も適切なものをそれぞれの選択肢の中から1つ選び、解答用紙の所定の欄にマークしなさい。なお、同じ選択肢を複数回選択してもよい。
-\rightline{各5点（計６０点）}
 
-\noindent{(1)} 外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。\\
+\newcounter{toi}[section]
+\newcommand{\toi}{\refstepcounter{toi}\hangindent=2em\noindent {\bf \large 問題 \thechapter-\thetoi} \indent}
+%問題コマンド
+
+\newcommand{\ans}{\fbox{{\bf 解答}}}
+%解答記号
+
+\newcommand{\hon}[1]{}
+%出典問題集コマンド・問題タイプ等 テキスト本体には掲載しないがメモとして残しておきたい内容
+
+\newcommand{\source}[2]{
+\begin{flushright}
+出典：{#1}年度~{#2}
+\end{flushright}
+}
+%出典コマンド
+
+\setlength{\textwidth}{\fullwidth}  %本文の幅(textwidth)を全体の幅(=ヘッダ部の幅)にそろえる
+\setlength{\evensidemargin}{\oddsidemargin} %偶数ページの余白と奇数ページの余白をそろえる
+
+%===========================================================
+%プリアンブルおわり
+%===========================================================
+
+\begin{document}
+
+\tableofcontents
+
+\chapter{2021年度　過去問}
+
+\toi 次の（１）～（１２）の各問について、空欄に当てはまる最も適切なものをそれぞれの選択肢の中から1つ選び、解答用紙の所定の欄にマークしなさい。なお、同じ選択肢を複数回選択してもよい。
+\begin{flushright}各5点（計６０点）\end{flushright}
+
+外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。\\
 
 \textbf{解答} \\
 
