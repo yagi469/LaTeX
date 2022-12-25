@@ -32,13 +32,11 @@
 
 \tableofcontents
 
-\chapter{2021年度　過去問}
+\chapter{確率分野問題}
+\section{ベイズの定理}
 
-\toi 次の（１）～（１２）の各問について、空欄に当てはまる最も適切なものをそれぞれの選択肢の中から1つ選び、解答用紙の所定の欄にマークしなさい。なお、同じ選択肢を複数回選択してもよい。
-\begin{flushright}各5点（計６０点）\end{flushright}
-
-\begin{enumerate}
-\item 外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。\\
+\toi 外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。
+\source{2021}{過去問}
 
 \ans
 
@@ -61,7 +59,20 @@ $P(F|R)$は、箱Rから一度に5個同時に玉を取り出すとき、赤玉�
 P(F|R) = \frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}
 \end{equation}
 
+$P(F|W)$は、箱Wから一度に5個同時に玉を取り出すとき、赤玉が3個、白玉が2個となる確率であるから
+
 \begin{equation}
+P(F|W) = \frac{\binom{6}{3}\cdot\binom{9}{2}}{\binom{15}{5}}
+\end{equation}
+
+よって、求める確率は、
+\begin{equation}
+\begin{split}
+P(R|F)& = \frac{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})}{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2}) + \frac{\binom{6}{3}\cdot\binom{9}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})} \\
+&=\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{9}{3}\cdot\binom{6}{2} + \binom{6}{3}\cdot\binom{9}{2}} \\
+&=\frac{(\frac{9\cdot8\cdot7}{3\cdot2})\cdot(\frac{6\cdot5}{2})}{(\frac{9\cdot8\cdot7}{3\cdot2})\cdot(\frac{6\cdot5}{2}) + (\frac{6\cdot5\cdot4}{3\cdot2})\cdot(\frac{9\cdot8}{2})} \\
+&=\frac{7}{7 + 4} = \frac{7}{11}
+\end{split}
 \end{equation}
 
 \begin{equation}
@@ -69,5 +80,7 @@ P(F|R) = \frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}
 
 \begin{equation}
 \end{equation}
-\end{enumerate}
+
+\begin{equation}
+\end{equation}
 \end{document}
