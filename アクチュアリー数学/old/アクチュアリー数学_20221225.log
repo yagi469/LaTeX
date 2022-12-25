@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  25 DEC 2022 12:40
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  25 DEC 2022 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -130,48 +130,48 @@ File: l3backend-dvips.def 2022-10-26 L3 backend support: dvips
 (./アクチュアリー数学_20221225.aux)
 \openout1 = `アクチュアリー数学_20221225.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 30.
+(Font)              scaled to size 9.60999pt on input line 33.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 30.
+(Font)              scaled to size 9.60999pt on input line 33.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 30.
+(Font)              scaled to size 23.90964pt on input line 33.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 30.
+(Font)              scaled to size 23.90964pt on input line 33.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 30.
+(Font)              scaled to size 23.90964pt on input line 33.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 30.
+(Font)              scaled to size 23.90964pt on input line 33.
  (./アクチュアリー数学_20221225.toc)
 \tf@toc=\write3
 \openout3 = `アクチュアリー数学_20221225.toc'.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 32.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 32.
+(Font)              scaled to size 9.60999pt on input line 35.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 32.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 32.
+(Font)              scaled to size 9.60999pt on input line 35.
 
 [1
 
@@ -181,25 +181,25 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 ]
 第1章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 32.
+(Font)              scaled to size 19.9311pt on input line 35.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 32.
+(Font)              scaled to size 19.9311pt on input line 35.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 32.
+(Font)              scaled to size 19.9311pt on input line 35.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 32.
+(Font)              scaled to size 19.9311pt on input line 35.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 34.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 34.
+(Font)              scaled to size 11.53198pt on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 34.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 34.
+(Font)              scaled to size 11.53198pt on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 42.
+(Font)              scaled to size 6.72699pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 42.
+(Font)              scaled to size 4.805pt on input line 46.
 [3] (./アクチュアリー数学_20221225.aux) ) 
 Here is how much of TeX's memory you used:
  1457 strings out of 476552
@@ -208,6 +208,6 @@ Here is how much of TeX's memory you used:
  22111 multiletter control sequences out of 15000+600000
  521473 words of font info for 77 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 54i,6n,62p,357b,262s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 54i,6n,62p,363b,262s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on アクチュアリー数学_20221225.dvi (3 pages, 3504 bytes).
+Output written on アクチュアリー数学_20221225.dvi (3 pages, 3648 bytes).
