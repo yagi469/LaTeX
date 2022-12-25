@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  25 DEC 2022 09:16
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  25 DEC 2022 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1343,19 +1343,15 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 198.
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 207.
+(Font)              using `JY1/hmc/bx/n' instead on input line 206.
 
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 222.
+(Font)              using `JY1/hmc/bx/n' instead on input line 221.
 
 [4
 
 ]
-
-LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 245.
-
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
 (Font)              using `JY1/hmc/bx/n' instead on input line 249.
@@ -1364,10 +1360,14 @@ LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
 (Font)              using `JY1/hmc/bx/n' instead on input line 253.
 
+
+LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
+(Font)              using `JY1/hmc/bx/n' instead on input line 257.
+
 [5]
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 265.
+(Font)              using `JY1/hmc/bx/n' instead on input line 269.
 
 [6] [7] (./アクチュアリー数学.aux)
 
@@ -1378,10 +1378,10 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  33224 strings out of 476552
  777919 string characters out of 5806845
- 1859797 words of memory out of 5000000
+ 1864797 words of memory out of 5000000
  53300 multiletter control sequences out of 15000+600000
  545605 words of font info for 117 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 99i,7n,104p,714b,1019s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,104p,714b,1019s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on アクチュアリー数学.dvi (9 pages, 13024 bytes).
+Output written on アクチュアリー数学.dvi (9 pages, 14156 bytes).

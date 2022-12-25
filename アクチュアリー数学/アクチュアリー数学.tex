@@ -196,13 +196,12 @@ $\ddagger$ & 大学の数学の内容だが理解に役立つ内容。完全に�
 \chapter{【各講のタイトルはchapter階層で書く】}
 
 \toi
-\hon{剰余で分類}
  次の（１）～（１２）の各問について、空欄に当てはまる最も適切なものをそれぞれの選択肢の中から1つ選び、解答用紙の所定の欄にマークしなさい。なお、同じ選択肢を複数回選択してもよい。
 \begin{flushright}
 各5点（計６０点）
 \end{flushright}
 \begin{enumerate}
-\item 外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。\\
+\item\hon{ベイズの公式} 外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。\\
 \\
 \ans
 
@@ -235,7 +234,12 @@ P(F|W) = \frac{\binom{6}{3}\cdot\binom{9}{2}}{\binom{15}{5}}
 
 よって、求める確率は、
 \begin{equation}
-P(R|F) = \frac{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})}{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2}) + \frac{\binom{6}{3}\cdot\binom{9}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})}
+\begin{split}
+P(R|F)& = \frac{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})}{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2}) + \frac{\binom{6}{3}\cdot\binom{9}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})} \\
+&=\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{9}{3}\cdot\binom{6}{2} + \binom{6}{3}\cdot\binom{9}{2}} \\
+&=\frac{(\frac{9\cdot8\cdot7}{3\cdot2})\cdot(\frac{6\cdot5}{2})}{(\frac{9\cdot8\cdot7}{3\cdot2})\cdot(\frac{6\cdot5}{2}) + (\frac{6\cdot5\cdot4}{3\cdot2})\cdot(\frac{9\cdot8}{2})} \\
+&=\frac{7}{7 + 4} = \frac{7}{11}
+\end{split}
 \end{equation}
 
 \begin{equation}
