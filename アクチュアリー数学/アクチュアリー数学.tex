@@ -1,6 +1,6 @@
 \documentclass[upLaTeX,dvipdfmx,b5j,openany,autodetect-engine,dvipdfmx-if-dvi,ja=standard,11pt]{jsbook}
 
-\usepackage{geometry}
+\usepackage[margin=50truemm]{geometry}
 \usepackage{amsmath}
 \usepackage{amssymb,otf,tcolorbox}
 \usepackage{fancyhdr,enumitem,ascmac,multicol,wrapfig}
@@ -197,12 +197,46 @@ $\ddagger$ & 大学の数学の内容だが理解に役立つ内容。完全に�
 
 \toi
 \hon{剰余で分類}
-$7^{n}$ を 6 で割った余りは 1 であることを証明したい.
+ 次の（１）～（１２）の各問について、空欄に当てはまる最も適切なものをそれぞれの選択肢の中から1つ選び、解答用紙の所定の欄にマークしなさい。なお、同じ選択肢を複数回選択してもよい。
+\begin{flushright}
+各5点（計６０点）
+\end{flushright}
 \begin{enumerate}
-\item 数学的帰納法を用いて証明せよ.
-\item 二項定理を用いて証明せよ.
+\item 外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。\\
+\\
+\ans
+
+箱Rが選ばれる事象を$R$、箱Wが選ばれる事象を$W$とする。また、箱から一度に5個同時に玉を取り出した結果をFとする。求める確率$P(R|F)$はベイズの公式により次式で計算される。
+
+\begin{equation}
+P(R|F) = \frac{P(F|R)\cdot P(R)}{P(F|R)\cdot P(R) + P(F|W)\cdot P(W)}
+\end{equation}
+
+2つの箱から1つの箱を無作為に選ぶので、
+
+\begin{equation}
+P(R) = P(W) = \frac{1}{2}
+\end{equation}
+
+$P(F|R)$は、箱Rから一度に5個同時に玉を取り出すとき、赤玉が3個、白玉が2個となる確率であるから、
+
+\begin{equation}
+P(F|R) = \frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}
+\end{equation}
+
+\begin{equation}
+\end{equation}
+
+\begin{equation}
+\end{equation}
+
+\begin{equation}
+\end{equation}
+\item 二項定理を用いて証明せよ.\\
+\\
+\ans
 \end{enumerate}
-\source{2020}{豊橋技科大・前期}
+\source{2021}{過去問}
 
 \ans
 
