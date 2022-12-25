@@ -2,7 +2,7 @@
 \usepackage{amsmath}
 
 \newcounter{toi}[section]
-\newcommand{\toi}{\refstepcounter{toi}\hangindent=2em\noindent {\bf \large 問題 \thechapter-\thetoi}.\indent}
+\newcommand{\toi}{\refstepcounter{toi}\hangindent=2em\noindent {\bf \large 問題 \thesection-\thetoi}.\indent}
 %問題コマンド
 
 \newcommand{\ans}{\fbox{{\bf 解答}}\\}
@@ -33,13 +33,38 @@
 \tableofcontents
 
 \chapter{確率分野問題}
+\section{離散一様分布}
+\newpage
+\section{二項分布}
+\newpage
+\section{ポアソン分布}
+\newpage
+\section{幾何分布、ファーストサクセス分布}
+\newpage
+\section{負の二項分布}
+\newpage
+\section{超幾何分布}
+\newpage
+\section{多項分布}
+\newpage
+\section{正規分布}
+\newpage
+
+\section{指数分布、ガンマ分布}
+\toi ある携帯通信キャリアの通信利用料金月額は、月内の通信利用料が20（GB）以内であれば定額2,000円、20（GB）を超えると500円が定額料金に加算され、それ以降1（GB）増えるごとに500円がさらに加算されていくという。携帯通信利用者の月内の通信利用料$X$（GB）が平均4（GB）の指数分布に従うとき、通信利用料金月額の期待値に最も近い数値は\fbox{　　　　　}円である。なお、必要であれば、$e=2.718$を用いてよい。
+\newpage
+\section{ベータ分布、多元データ分布}
+\newpage
+\section{トレーズ、確率変数の分解}
+\newpage
+\section{加法定理、複合分布}
+\newpage
 \section{ベイズの定理}
 
 \toi 外見から区別のつかない2つの箱がある。1つの箱Rには９個の赤玉と6個の白玉が入っており、もう1つの箱Wには6個の赤玉と9個の白玉が入っている。2つの箱から1つを無作為に選び、その箱から一度に5個同時に玉を取り出したところ、赤玉が3個、白玉が２個であった。このとき、選ばれた箱がRである確率は\fbox{　　　　　}である。
 \source{2021}{過去問}
 
 \ans
-
 
 箱Rが選ばれる事象を$R$、箱Wが選ばれる事象を$W$とする。また、箱から一度に5個同時に玉を取り出した結果をFとする。求める確率$P(R|F)$はベイズの公式により次式で計算される。
 
@@ -75,6 +100,36 @@ P(R|F)& = \frac{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1
 \end{split}
 \end{equation}
 
+\newpage
+\section{漸化式}
+\newpage
+\section{一様分布の変換、一様分布の和・差・積・商、三角分布}
+\newpage
+\section{正規分布の変換、対数正規分布}
+\newpage
+\section{コーシー分布、t分布、F分布、第2種パレート分布}
+
+\chapter{統計分野問題}
+\section{中心極限定理、チェビシェフの不等式}
+\newpage
+\section{順序統計量系}
+\newpage
+\section{点推定系}
+\newpage
+\section{区間推定系}
+\newpage
+\section{有限母集団}
+\newpage
+\section{検定系}
+
+\chapter{モデリング分野問題}
+\section{回帰分析系}
+\newpage
+\section{時系列解析系}
+\newpage
+\section{確率過程系}
+\newpage
+\section{シミュレーション系}
 \begin{equation}
 \end{equation}
 
