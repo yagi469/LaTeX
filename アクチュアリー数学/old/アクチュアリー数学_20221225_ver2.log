@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  25 DEC 2022 09:40
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.12.24)  25 DEC 2022 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**アクチュアリー数学.tex
-(./アクチュアリー数学.tex
+**アクチュアリー数学_20221225_ver2.tex
+(./アクチュアリー数学_20221225_ver2.tex
 pLaTeX2e <2021-11-15>+1 (based on LaTeX2e <2022-11-01> patch level 1)
 L3 programming layer <2022-12-17>
 (c:/texlive/2022/texmf-dist/tex/platex/jsclasses/jsbook.cls
@@ -1016,13 +1016,12 @@ File: l3backend-dvipdfmx.def 2022-10-26 L3 backend support: dvipdfmx
 LaTeX Warning: Unused global option(s):
     [upLaTeX,dvipdfmx-if-dvi,ja].
 
-(./アクチュアリー数学.aux)
-\openout1 = `アクチュアリー数学.aux'.
+No file アクチュアリー数学_20221225_ver2.aux.
+\openout1 = `アクチュアリー数学_20221225_ver2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 98.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  98.
-
 (c:/texlive/2022/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
@@ -1302,10 +1301,10 @@ LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
 ]
 LaTeX Font Info:    Font shape `OT1/qhv/m/n' will be
 (Font)              scaled to size 9.40002pt on input line 187.
- (./アクチュアリー数学.toc)
-\tf@toc=\write4
-\openout4 = `アクチュアリー数学.toc'.
 
+No file アクチュアリー数学_20221225_ver2.toc.
+\tf@toc=\write4
+\openout4 = `アクチュアリー数学_20221225_ver2.toc'.
 
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
@@ -1354,34 +1353,34 @@ LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
 ]
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 249.
+(Font)              using `JY1/hmc/bx/n' instead on input line 247.
 
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 253.
+(Font)              using `JY1/hmc/bx/n' instead on input line 251.
 
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 257.
+(Font)              using `JY1/hmc/bx/n' instead on input line 255.
 
 [5]
 
 LaTeX Font Warning: Font shape `JY1/hmc/b/n' undefined
-(Font)              using `JY1/hmc/bx/n' instead on input line 269.
+(Font)              using `JY1/hmc/bx/n' instead on input line 267.
 
-[6] [7] (./アクチュアリー数学.aux)
+[6] [7] (./アクチュアリー数学_20221225_ver2.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 33224 strings out of 476552
- 777919 string characters out of 5806845
+ 33214 strings out of 476552
+ 777937 string characters out of 5806845
  1864797 words of memory out of 5000000
- 53300 multiletter control sequences out of 15000+600000
+ 53294 multiletter control sequences out of 15000+600000
  545605 words of font info for 117 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 99i,18n,104p,714b,1019s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,104p,728b,1019s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on アクチュアリー数学.dvi (9 pages, 14156 bytes).
+Output written on アクチュアリー数学_20221225_ver2.dvi (9 pages, 13388 bytes).
