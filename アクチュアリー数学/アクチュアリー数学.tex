@@ -1,6 +1,6 @@
 \documentclass[upLaTeX,dvipdfmx,b5j,openany,autodetect-engine,dvipdfmx-if-dvi,ja=standard,11pt]{jsbook}
 
-\usepackage[margin=50truemm]{geometry}
+\usepackage{geometry}
 \usepackage{amsmath}
 \usepackage{amssymb,otf,tcolorbox}
 \usepackage{fancyhdr,enumitem,ascmac,multicol,wrapfig}
@@ -218,16 +218,24 @@ P(R|F) = \frac{P(F|R)\cdot P(R)}{P(F|R)\cdot P(R) + P(F|W)\cdot P(W)}
 P(R) = P(W) = \frac{1}{2}
 \end{equation}
 
+\vfill
+\newpage
+
 $P(F|R)$は、箱Rから一度に5個同時に玉を取り出すとき、赤玉が3個、白玉が2個となる確率であるから、
 
 \begin{equation}
 P(F|R) = \frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}
 \end{equation}
 
-\begin{equation}
-\end{equation}
+$P(F|W)$は、箱Wから一度に5個同時に玉を取り出すとき、赤玉が3個、白玉が2個となる確率であるから
 
 \begin{equation}
+P(F|W) = \frac{\binom{6}{3}\cdot\binom{9}{2}}{\binom{15}{5}}
+\end{equation}
+
+よって、求める確率は、
+\begin{equation}
+P(R|F) = \frac{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})}{\frac{\binom{9}{3}\cdot\binom{6}{2}}{\binom{15}{5}}\cdot(\frac{1}{2}) + \frac{\binom{6}{3}\cdot\binom{9}{2}}{\binom{15}{5}}\cdot(\frac{1}{2})}
 \end{equation}
 
 \begin{equation}
